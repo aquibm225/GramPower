@@ -1,10 +1,10 @@
-all : parseCMD
+all : parseTEXT
 
-parse : parseCMD.o
-	gcc -o parseCMD parseCMD.o 
+parse : parseTEXT.o
+	gcc -o parseTEXT parseTEXT.o 
 
-parse.o : parseCMD.c
-	gcc -c parseCMD.c
+parse.o : parseTEXT.c
+	gcc -c parseTEXT.c
 
 clean :
-	rm parseCMD *.o
+	rm parseTEXT *.o

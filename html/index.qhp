@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+  <namespace>org.doxygen.Project</namespace>
+  <virtualFolder>doc</virtualFolder>
+  <filterSection>
+    <filterAttribute>doxygen</filterAttribute>
+    <toc>
+      <section title="Pattern parsing 1.0" ref="index.html">
+        <section title="Classes">
+          <section title="Class List" ref="annotated.html">
+            <section title="BoxStruct_struct" ref="structBoxStruct__struct.html">
+              <section title="a" ref="structBoxStruct__struct.html#a4593938c5e90f024e7971bdb1392d9d6" />
+              <section title="b" ref="structBoxStruct__struct.html#aee44748dc579c5d794853ee8b133d197" />
+              <section title="c" ref="structBoxStruct__struct.html#a4543370ed67b2cf5ae3f55201bea11e6" />
+            </section>
+          </section>
+          <section title="Class Index" ref="classes.html" />
+          <section title="Class Members" ref="functions.html">
+            <section title="All" ref="functions.html" />
+            <section title="Variables" ref="functions_vars.html" />
+          </section>
+        </section>
+        <section title="Files">
+          <section title="File List" ref="files.html">
+            <section title="a.h" ref="a_8h.html">
+              <section title="BoxStruct_struct" ref="structBoxStruct__struct.html">
+                <section title="a" ref="structBoxStruct__struct.html#a4593938c5e90f024e7971bdb1392d9d6" />
+                <section title="b" ref="structBoxStruct__struct.html#aee44748dc579c5d794853ee8b133d197" />
+                <section title="c" ref="structBoxStruct__struct.html#a4543370ed67b2cf5ae3f55201bea11e6" />
+              </section>
+              <section title="BoxEnum" ref="a_8h.html#a354be0627e025b594a719a4c3f92a69f" />
+              <section title="BoxStruct" ref="a_8h.html#a718548848862b3d5da8f7c7cea677de1" />
+              <section title="BoxEnum_enum" ref="a_8h.html#abdf4994e8e07b3eda6c6a5a9bf5357e4">
+                <section title="BOXENUM_FIRST" ref="a_8h.html#abdf4994e8e07b3eda6c6a5a9bf5357e4a2bf0bdd7b9b287724c66f6c0f74ceb01" />
+                <section title="BOXENUM_SECOND" ref="a_8h.html#abdf4994e8e07b3eda6c6a5a9bf5357e4a3ede3b6dfb2dbdac72634f0334e11c63" />
+                <section title="BOXENUM_ETC" ref="a_8h.html#abdf4994e8e07b3eda6c6a5a9bf5357e4a227130e825c6c4506cc4a226539d85fb" />
+              </section>
+              <section title="Box_The_Function_Name" ref="a_8h.html#aaddf8ced9406a68229baee8c1e922b6a" />
+              <section title="Box_The_Last_One" ref="a_8h.html#a01d1bdf75bc1d4b6445faeafa8fd853d" />
+              <section title="Box_The_Second_Function" ref="a_8h.html#a7ec4699a4197d74b5487929228b0597c" />
+            </section>
+            <section title="algodetails.h" ref="algodetails_8h.html" />
+            <section title="parseCMD.c" ref="parseCMD_8c.html">
+              <section title="getdata" ref="parseCMD_8c.html#ad6bbbd9117e70c1ce9a39dd2836366c4" />
+              <section title="main" ref="parseCMD_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" />
+              <section title="parseForHello" ref="parseCMD_8c.html#a4e4afb3c8c2df19d88370f1c49ced666" />
+              <section title="data" ref="parseCMD_8c.html#a91a70b77df95bd8b0830b49a094c2acb" />
+              <section title="numberofchar" ref="parseCMD_8c.html#aa7acdcce221b5a56a8ebb965c10c9d96" />
+              <section title="state" ref="parseCMD_8c.html#a89f234133d3efe315836311cbf21c64b" />
+            </section>
+            <section title="parseFILE.c" ref="parseFILE_8c.html">
+              <section title="getdata" ref="parseFILE_8c.html#ad6bbbd9117e70c1ce9a39dd2836366c4" />
+              <section title="main" ref="parseFILE_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" />
+              <section title="parseForHello" ref="parseFILE_8c.html#a4e4afb3c8c2df19d88370f1c49ced666" />
+              <section title="data" ref="parseFILE_8c.html#a91a70b77df95bd8b0830b49a094c2acb" />
+              <section title="numberofchar" ref="parseFILE_8c.html#aa7acdcce221b5a56a8ebb965c10c9d96" />
+              <section title="state" ref="parseFILE_8c.html#a89f234133d3efe315836311cbf21c64b" />
+            </section>
+          </section>
+          <section title="File Members" ref="globals.html">
+            <section title="All" ref="globals.html" />
+            <section title="Functions" ref="globals_func.html" />
+            <section title="Variables" ref="globals_vars.html" />
+            <section title="Typedefs" ref="globals_type.html" />
+            <section title="Enumerations" ref="globals_enum.html" />
+            <section title="Enumerator" ref="globals_eval.html" />
+          </section>
+        </section>
+      </section>
+    </toc>
+    <keywords>
+      <keyword name="BoxEnum" id="a.h::BoxEnum" ref="a_8h.html#a354be0627e025b594a719a4c3f92a69f" />
+      <keyword name="BoxStruct" id="a.h::BoxStruct" ref="a_8h.html#a718548848862b3d5da8f7c7cea677de1" />
+      <keyword name="Box_The_Function_Name" id="a.h::Box_The_Function_Name" ref="a_8h.html#aaddf8ced9406a68229baee8c1e922b6a" />
+      <keyword name="Box_The_Last_One" id="a.h::Box_The_Last_One" ref="a_8h.html#a01d1bdf75bc1d4b6445faeafa8fd853d" />
+      <keyword name="Box_The_Second_Function" id="a.h::Box_The_Second_Function" ref="a_8h.html#a7ec4699a4197d74b5487929228b0597c" />
+      <keyword name="BOXENUM_FIRST" id="a.h::BOXENUM_FIRST" ref="a_8h.html#abdf4994e8e07b3eda6c6a5a9bf5357e4a2bf0bdd7b9b287724c66f6c0f74ceb01" />
+      <keyword name="BOXENUM_SECOND" id="a.h::BOXENUM_SECOND" ref="a_8h.html#abdf4994e8e07b3eda6c6a5a9bf5357e4a3ede3b6dfb2dbdac72634f0334e11c63" />
+      <keyword name="BOXENUM_ETC" id="a.h::BOXENUM_ETC" ref="a_8h.html#abdf4994e8e07b3eda6c6a5a9bf5357e4a227130e825c6c4506cc4a226539d85fb" />
+      <keyword name="getdata" id="parseCMD.c::getdata" ref="parseCMD_8c.html#ad6bbbd9117e70c1ce9a39dd2836366c4" />
+      <keyword name="main" id="parseCMD.c::main" ref="parseCMD_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" />
+      <keyword name="parseForHello" id="parseCMD.c::parseForHello" ref="parseCMD_8c.html#a4e4afb3c8c2df19d88370f1c49ced666" />
+      <keyword name="data" id="parseCMD.c::data" ref="parseCMD_8c.html#a91a70b77df95bd8b0830b49a094c2acb" />
+      <keyword name="numberofchar" id="parseCMD.c::numberofchar" ref="parseCMD_8c.html#aa7acdcce221b5a56a8ebb965c10c9d96" />
+      <keyword name="state" id="parseCMD.c::state" ref="parseCMD_8c.html#a89f234133d3efe315836311cbf21c64b" />
+      <keyword name="getdata" id="parseFILE.c::getdata" ref="parseFILE_8c.html#ad6bbbd9117e70c1ce9a39dd2836366c4" />
+      <keyword name="main" id="parseFILE.c::main" ref="parseFILE_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" />
+      <keyword name="parseForHello" id="parseFILE.c::parseForHello" ref="parseFILE_8c.html#a4e4afb3c8c2df19d88370f1c49ced666" />
+      <keyword name="data" id="parseFILE.c::data" ref="parseFILE_8c.html#a91a70b77df95bd8b0830b49a094c2acb" />
+      <keyword name="numberofchar" id="parseFILE.c::numberofchar" ref="parseFILE_8c.html#aa7acdcce221b5a56a8ebb965c10c9d96" />
+      <keyword name="state" id="parseFILE.c::state" ref="parseFILE_8c.html#a89f234133d3efe315836311cbf21c64b" />
+      <keyword name="BoxStruct_struct" id="BoxStruct_struct" ref="structBoxStruct__struct.html" />
+      <keyword name="a" id="BoxStruct_struct::a" ref="structBoxStruct__struct.html#a4593938c5e90f024e7971bdb1392d9d6" />
+      <keyword name="b" id="BoxStruct_struct::b" ref="structBoxStruct__struct.html#aee44748dc579c5d794853ee8b133d197" />
+      <keyword name="c" id="BoxStruct_struct::c" ref="structBoxStruct__struct.html#a4543370ed67b2cf5ae3f55201bea11e6" />
+    </keywords>
+    <files>
+      <file>tabs.css</file>
+      <file>tab_a.png</file>
+      <file>tab_b.png</file>
+      <file>tab_h.png</file>
+      <file>tab_s.png</file>
+      <file>nav_h.png</file>
+      <file>nav_f.png</file>
+      <file>bc_s.png</file>
+      <file>doxygen.png</file>
+      <file>closed.png</file>
+      <file>open.png</file>
+      <file>bdwn.png</file>
+      <file>sync_on.png</file>
+      <file>sync_off.png</file>
+      <file>ftv2blank.png</file>
+      <file>ftv2doc.png</file>
+      <file>ftv2folderclosed.png</file>
+      <file>ftv2folderopen.png</file>
+      <file>ftv2lastnode.png</file>
+      <file>ftv2link.png</file>
+      <file>ftv2mlastnode.png</file>
+      <file>ftv2mnode.png</file>
+      <file>ftv2node.png</file>
+      <file>ftv2plastnode.png</file>
+      <file>ftv2pnode.png</file>
+      <file>ftv2vertline.png</file>
+      <file>ftv2splitbar.png</file>
+      <file>doxygen.css</file>
+      <file>a_8h_source.html</file>
+      <file>algodetails_8h_source.html</file>
+      <file>a_8h.html</file>
+      <file>algodetails_8h.html</file>
+      <file>parseCMD_8c.html</file>
+      <file>parseFILE_8c.html</file>
+      <file>structBoxStruct__struct.html</file>
+      <file>structBoxStruct__struct-members.html</file>
+      <file>index.html</file>
+      <file>annotated.html</file>
+      <file>classes.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions_vars.html</file>
+      <file>functions_vars.html</file>
+      <file>functions_vars.html</file>
+      <file>files.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals_func.html</file>
+      <file>globals_func.html</file>
+      <file>globals_func.html</file>
+      <file>globals_func.html</file>
+      <file>globals_vars.html</file>
+      <file>globals_vars.html</file>
+      <file>globals_vars.html</file>
+      <file>globals_type.html</file>
+      <file>globals_enum.html</file>
+      <file>globals_eval.html</file>
+    </files>
+  </filterSection>
+</QtHelpProject>
