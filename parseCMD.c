@@ -36,6 +36,24 @@ char *getdata()
 	return data;
 }
 
+bool parseForHello(char c)
+{
+	if(c == data[0])
+		state = 0;
+	else if(c == data[state+1])
+		state++;
+	//else if(c == data[state]) 				// redundant yet written for clarification of algorithm
+	//   redundant yet written for clarification of algorithm	state = state; 
+										// redundant yet written for clarification of algorithm
+	else
+		state = -1;
+
+	if(state == numberofchar-1) // reached end of SM
+		return true; // return success
+
+	return false; // return failure
+}
+
 //Pilot program
 int main()
 {
