@@ -7,7 +7,7 @@
 int main()
 {
 	char c;								// incoming character		
-
+	bool helloFound = false;					// success flag					
 	FILE *inputfile;						// input file handler
 	inputfile = fopen("test.txt", "r+");		// open input file 
 	if (inputfile == NULL) 					// error in opening file
@@ -15,5 +15,22 @@ int main()
 		printf("No input file\n");			// print error
 		return 0;							// exit
 	}
+	for(;;)								// run infinitely
+	{
+		c = fgetc(inputfile);				// get next character
+		if(c == EOF)						// file end
+			break;						// exit
+		
+ 		helloFound = parseForHello(c);		// SM function
+ 		if(helloFound)						// success check
+ 			break;						// break if success
+	}
+
+	if(helloFound)							// print success
+		printf("Found!!!\n");
+	else 
+		printf("Not Found!!!\n");				
+
+	fclose(inputfile);						// close test file
 	return 0;
 }
