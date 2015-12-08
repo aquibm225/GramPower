@@ -2,7 +2,7 @@
 #include <stdio.h> 						// scanf, printf
 #include <stdbool.h> 						// bool
 #include <stdlib.h> 						// malloc
-
+ 
 char *data; 							// arrey of desired string
 int state = -1; 						// state of SM
 int numberofchar; 						// number of elements in desired string
