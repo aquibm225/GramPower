@@ -1,21 +1,21 @@
 //run as : gcc parseCMD.c -o a
-#include <stdio.h> 					// scanf, printf
+#include <stdio.h> 						// scanf, printf
 #include <stdbool.h> 						// bool
 #include <stdlib.h> 						// malloc
 
-char *data; 								// arrey of desired string
-int state = -1; 							// state of SM
-int numberofchar; 							// number of elements in desired string
+char *data; 							// arrey of desired string
+int state = -1; 						// state of SM
+int numberofchar; 						// number of elements in desired string
 
 
 
 //Pilot program
 int main()
 {
-	char c;						// incoming character		
-	bool helloFound = false;					// success flag			
+	char c;							// incoming character		
+	bool helloFound = false;				// success flag			
 	data = getdata();		
-	FILE *inputfile;				// input file handler
+	FILE *inputfile;						// input file handler
 	inputfile = fopen("test.txt", "r+");			// open input file 
 	if (inputfile == NULL) 					// error in opening file
 	{
