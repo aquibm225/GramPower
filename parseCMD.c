@@ -73,7 +73,7 @@ int main()
 		if(c == EOF)						// file end
 			break;						// exit
 		
- 		helloFound = parseForHello(c);				// SM function
+ 		helloFound = parseForHello(c);						// SM function
  		if(helloFound)						// success check
  			break;						// break if success
 	}
