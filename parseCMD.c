@@ -7,7 +7,34 @@ char *data; 							// arrey of desired string
 int state = -1; 						// state of SM
 int numberofchar; 						// number of elements in desired string
 
+char *getdata()
+{
+	FILE *datafile; 						// file handler
+	char c; 								// incoming char
 
+	unsigned int i; 						// looping variable
+	char *data; 							// desired string container
+	datafile = fopen("data.txt", "r+");		// open data file, containing desired string
+	if (datafile == NULL) 					// error in opeining file
+	{
+		printf("No data file\n");			// print error
+		return 0;							// exit
+	}
+
+	numberofchar = fgetc(datafile) - (int)'0';	// get length of desired string
+	data = malloc(numberofchar*sizeof(char));	// allocate memory
+	c = fgetc(datafile);					// get newline after length in datat.txt
+
+	for(i=0;i<numberofchar;i++)				// get all characters in desired string
+	{
+		c = fgetc(datafile);
+		if(c == EOF)						// file end condition
+			break;						// break loop, protection for wrong data file
+		else
+			data[i] = c;
+	}
+	return data;
+}
 
 //Pilot program
 int main()
@@ -15,7 +42,7 @@ int main()
 	char c;							// incoming character		
 	bool helloFound = false;				// success flag			
 	data = getdata();		
-	FILE *inputfile;						// input file handler
+	FILE *inputfile;					// input file handler
 	inputfile = fopen("test.txt", "r+");			// open input file 
 	if (inputfile == NULL) 					// error in opening file
 	{
