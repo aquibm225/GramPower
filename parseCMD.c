@@ -48,10 +48,10 @@ bool parseForHello(char c)
 	else
 		state = -1;
 
-	if(state == numberofchar-1) // reached end of SM
-		return true; // return success
+	if(state == numberofchar-1) 						// reached end of SM
+		return true; 							// return success
 
-	return false; // return failure
+	return false; 							// return failure
 }
 
 //Pilot program
