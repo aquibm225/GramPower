@@ -1,10 +1,10 @@
-all : parse
+all : parseCMD
 
-parse : parse.o
-	gcc -o parse parse.o 
+parse : parseCMD.o
+	gcc -o parseCMD parseCMD.o 
 
 parse.o : parseCMD.c
 	gcc -c parseCMD.c
 
 clean :
-	rm parse *.o
+	rm parseCMD *.o
