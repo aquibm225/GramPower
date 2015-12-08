@@ -56,7 +56,7 @@ bool parseForHello(char c)
 
 //Pilot program
 int main()
-{
+{ 
 	char c;								// incoming character		
 	bool helloFound = false;					// success flag			
 	data = getdata();		
